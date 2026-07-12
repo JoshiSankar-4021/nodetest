@@ -9,7 +9,7 @@ const postroutes = require("./routes/posts1")
 const connectDB = require("./config/db");
  
 app.use(cors({
-    origin:["http://localhost:5173","https://myfirstapp-sasi.vercel.app"],
+    origin:["http://localhost:5173","https://myfirstapp-sasi.vercel.app","*"],
     methods:["GET","POST","DELETE","PUT"]
 }))
 
